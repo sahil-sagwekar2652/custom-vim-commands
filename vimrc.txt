@@ -1,0 +1,5 @@
+:set number
+autocmd Filetype cpp setlocal tabstop=4
+
+command Py execute ":w | !python %"
+
